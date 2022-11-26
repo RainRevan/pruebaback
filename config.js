@@ -5,10 +5,10 @@
 
 let PORT = process.env.PORT || 8080;
 let connectionString =
-    "mongodb+srv://admin:admin123@cluster0.sj3ngcx.mongodb.net/?retryWrites=true&w=majority";
-let dbName = "dbtest_night";
+    "mongodb+srv://admin:admin1234@cluster0.p0pyz3y.mongodb.net/?retryWrites=true&w=majority";
+let dbName = "dbtest_prueba";
 let fullUrl =
-    "mongodb+srv://admin:admin123@cluster0.sj3ngcx.mongodb.net/" +
+    "mongodb+srv://admin:admin1234@cluster0.p0pyz3y.mongodb.net/" +
     dbName +
     "?retryWrites=true&w=majority";
 module.exports = {
@@ -17,3 +17,5 @@ module.exports = {
     dbName,
     fullUrl,
 };
+
+//mongodb+srv://admin:<password>@cluster0.p0pyz3y.mongodb.net/?retryWrites=true&w=majority//
